@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  width: 80%; /*100% da tela*/
+  margin: auto; /*margin automatico*/
+  display: flex;
+}
+.header{
+  border-bottom: 3px solid #32b0cd; /*linha azul*/
+}
+.header .container{
+  justify-content: space-between;/*so vamos usar 1 folha de estilo, para n ter duplicata de class*/
+}
+
+.header a{
+  text-decoration: none;
+  color: #e3d062;
+}
+.agora{
+  font-weight: 800;/*maior é a expessura, força*/
+
+}
+.navbar{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;/*tira a listinha*/
+  color: #e3d062;
+}
+.titulo{
+  color: aqua; /*cor do texto AquaTech, chamado na div*/
+  width: fit-content;
+  font-weight: 500; /*diminuiu a expessura da letra*/
+}
